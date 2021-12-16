@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Hola-Mozilla/static/css/main.dcc3c757.css",
-    "main.js": "/Hola-Mozilla/static/js/main.f2a215b8.js",
-    "static/js/787.8d9a8a80.chunk.js": "/Hola-Mozilla/static/js/787.8d9a8a80.chunk.js",
-    "index.html": "/Hola-Mozilla/index.html",
-    "main.dcc3c757.css.map": "/Hola-Mozilla/static/css/main.dcc3c757.css.map",
-    "main.f2a215b8.js.map": "/Hola-Mozilla/static/js/main.f2a215b8.js.map",
-    "787.8d9a8a80.chunk.js.map": "/Hola-Mozilla/static/js/787.8d9a8a80.chunk.js.map"
+    "main.css": "/static/css/main.dcc3c757.css",
+    "main.js": "/static/js/main.a493f792.js",
+    "static/js/787.8d9a8a80.chunk.js": "/static/js/787.8d9a8a80.chunk.js",
+    "index.html": "/index.html",
+    "main.dcc3c757.css.map": "/static/css/main.dcc3c757.css.map",
+    "main.a493f792.js.map": "/static/js/main.a493f792.js.map",
+    "787.8d9a8a80.chunk.js.map": "/static/js/787.8d9a8a80.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dcc3c757.css",
-    "static/js/main.f2a215b8.js"
+    "static/js/main.a493f792.js"
   ]
 }
