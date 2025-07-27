@@ -24,12 +24,13 @@ export default function Register() {
 
       <div className="reg-right-box">
         <Button className="btn-grad">
-          <a style={{ textDecoration: "none" }}>REGISTER NOW</a>
+          <span style={{ textDecoration: "none" }}>REGISTER NOW</span>
         </Button>
       </div>
       <img
         className="watermark"
         src="https://res.cloudinary.com/fitness-glory/image/upload/v1639484985/logo_icon-01_s6oex8.png"
+        alt="watermark"
       /></center>
     </div>
   );
