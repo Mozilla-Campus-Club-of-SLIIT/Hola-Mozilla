@@ -48,7 +48,7 @@ function Navbar(prop) {
         <Typography variant="h6" className={classes.logo}>
           <Link to="/">
             <img
-              src={process.env.PUBLIC_URL + "/sliit-mozilla-logo.jpg"}
+              src={process.env.PUBLIC_URL + "/sliit-mozilla-logo.png"}
               alt="SLIIT Mozilla Logo"
               width={70}
               height={70}

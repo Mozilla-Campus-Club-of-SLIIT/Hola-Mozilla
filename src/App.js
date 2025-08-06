@@ -1,6 +1,6 @@
 import "./App.css";
-import React, { useEffect, useRef } from "react";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import NavBar from "./components/navbar";
 import Register from "./components/Register";
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <NavBar />
           <Switch>
           <Route path="/" exact component={Home} />
