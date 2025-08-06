@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Hola-Mozilla/static/css/main.dcc3c757.css",
-    "main.js": "/Hola-Mozilla/static/js/main.cd8b788f.js",
+    "main.css": "/Hola-Mozilla/static/css/main.19a484ac.css",
+    "main.js": "/Hola-Mozilla/static/js/main.8a54b9b0.js",
     "static/js/787.8d9a8a80.chunk.js": "/Hola-Mozilla/static/js/787.8d9a8a80.chunk.js",
     "index.html": "/Hola-Mozilla/index.html",
-    "main.dcc3c757.css.map": "/Hola-Mozilla/static/css/main.dcc3c757.css.map",
-    "main.cd8b788f.js.map": "/Hola-Mozilla/static/js/main.cd8b788f.js.map",
+    "main.19a484ac.css.map": "/Hola-Mozilla/static/css/main.19a484ac.css.map",
+    "main.8a54b9b0.js.map": "/Hola-Mozilla/static/js/main.8a54b9b0.js.map",
     "787.8d9a8a80.chunk.js.map": "/Hola-Mozilla/static/js/787.8d9a8a80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcc3c757.css",
-    "static/js/main.cd8b788f.js"
+    "static/css/main.19a484ac.css",
+    "static/js/main.8a54b9b0.js"
   ]
 }
