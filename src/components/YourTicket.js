@@ -85,74 +85,87 @@ export default function YourTicket() {
   };
 
   return (
-    <div><center>
-      <>
-        <div className="ticket-left">
-          <span className="ticket-left-1">
-            Generate Your Ticket Now!
-            {/* <span className="ticket-left-2">FROM HERE!</span> */}
-          </span>
-          <div>
-            {/* <input className="nameInput" id="name" type='text' placeholder="Enter Your Name"/> */}
-            <form className={classes.root} autoComplete="off" onSubmit={handleSubmit}>
-              <FormControl variant="outlined" className="nameInputStyles" onSubmit={handleSubmit}>
-                <InputLabel
-                  style={{ color: "white" }}
-                  ref={inputLabel}
-                  htmlFor="outlined-age-simple"
-                  required="required"
-                  maxlength="12"
-                  minLength="10"
+    <div>
+      <center>
+        <>
+          <div className="ticket-left">
+            <span className="ticket-left-1">
+              Generate Your Ticket Now!
+              {/* <span className="ticket-left-2">FROM HERE!</span> */}
+            </span>
+            <div>
+              {/* <input className="nameInput" id="name" type='text' placeholder="Enter Your Name"/> */}
+              <form
+                className={classes.root}
+                autoComplete="off"
+                onSubmit={handleSubmit}
+              >
+                <FormControl
+                  variant="outlined"
+                  className="nameInputStyles"
+                  onSubmit={handleSubmit}
                 >
-                  Enter your First and Last name
-                </InputLabel>
-                <OutlinedInput
-                  id="name"
-                  type={"text"}
-                  style={{ color: "white" }}
-                  labelWidth={labelWidth}
-                  classes={outlinedInputClasses}
-                  required="required"
-                  maxlength="12"
-                  minLength="10"
-                />
-                 <div className="ticketBox" type="submit">
-                    <a href="#" type="submit" className="generateTicket" id="download-btn">
+                  <InputLabel
+                    style={{ color: "white" }}
+                    ref={inputLabel}
+                    htmlFor="outlined-age-simple"
+                    required="required"
+                    maxlength="12"
+                    minLength="10"
+                  >
+                    Enter your First and Last name
+                  </InputLabel>
+                  <OutlinedInput
+                    id="name"
+                    type={"text"}
+                    style={{ color: "white" }}
+                    labelWidth={labelWidth}
+                    classes={outlinedInputClasses}
+                    required="required"
+                    maxlength="12"
+                    minLength="10"
+                  />
+                  <div className="ticketBox" type="submit">
+                    <a
+                      href="#"
+                      type="submit"
+                      className="generateTicket"
+                      id="download-btn"
+                    >
                       Generate Ticket
                     </a>
                   </div>
-              </FormControl>
-            </form>
+                </FormControl>
+              </form>
+            </div>
           </div>
-          <img
-            className="watermark-right"
-            src="https://res.cloudinary.com/fitness-glory/image/upload/v1639484985/logo_icon-01_s6oex8.png"
-          />
-        </div>
 
-        <div className="ticket-right">
-          <div>
-            <canvas
-              className="cnvsStyle"
-              ref={canvasRef}
-              height="500px"
-              width="1000px"
-              style={{ border: "1px solid black", position: "center" }}
-            />
+          <div className="ticket-right">
+            <div>
+              <canvas
+                className="cnvsStyle"
+                ref={canvasRef}
+                height="500px"
+                width="1000px"
+                style={{ border: "1px solid black", position: "center" }}
+              />
+            </div>
+            <div className="dontFogt">
+              <span className="dontFogt">
+                *Don't forget to tag Mozilla Campus Club of SLIIT <br /> when
+                you are sharing on Social Media.
+              </span>
+            </div>
+            <br />
+            <br />
           </div>
-          <div className="dontFogt">
-            <span className="dontFogt">
-              *Don't forget to tag Mozilla Campus Club of SLIIT <br /> when you
-              are sharing on Social Media.
-            </span>
-          </div><br/><br/>
-        </div>
-        {/* <div className="ticketBox">
+          {/* <div className="ticketBox">
           <a href="#" className="generateTicket" id="download-btn">
             Generate Ticket
           </a>
         </div> */}
-      </></center>
+        </>
+      </center>
     </div>
   );
 }

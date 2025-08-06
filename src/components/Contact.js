@@ -22,7 +22,7 @@ export default function Contact() {
         <div className="left-contact">
           <div className="contacthead">
             <h2 className="contactheadH2">
-              Contact for more information about the event
+              Contact for more information about the event (2021)
             </h2>
           </div>
 
@@ -44,7 +44,7 @@ export default function Contact() {
           <div className="socialButtons">
             <a
               style={{ textDecoration: "none" }}
-              href="https://web.facebook.com/sliitmcc"
+              href="https://web.facebook.com/sliitmozilla"
             >
               <Button
                 variant="contained"
@@ -57,7 +57,7 @@ export default function Contact() {
             </a>
             <a
               style={{ textDecoration: "none" }}
-              href="https://www.linkedin.com/company/mozilla-campus-club-of-sliit"
+              href="https://www.linkedin.com/company/sliitmozilla"
             >
               <Button
                 variant="contained"
@@ -83,7 +83,7 @@ export default function Contact() {
             </a>
             <a
               style={{ textDecoration: "none" }}
-              href="https://www.instagram.com/mozillacampusclubsliit"
+              href="https://www.instagram.com/sliitmozilla"
             >
               <Button
                 variant="contained"
@@ -96,10 +96,6 @@ export default function Contact() {
             </a>
           </div>
         </div>
-        <img
-          className="watermark-mozilla"
-          src="https://res.cloudinary.com/fitness-glory/image/upload/v1639550570/Mozilla_Logo_ezid2w.png"
-        />
       </div>
     </div>
   );
