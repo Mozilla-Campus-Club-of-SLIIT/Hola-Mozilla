@@ -27,10 +27,10 @@ export default function Contact() {
           </div>
 
           <div className="contactText">
-            <span>077 8829 607 (Pasindu Bandara)</span>
-            <br />
+            {/* <span>077 8829 607 (Pasindu Bandara)</span> */}
+            {/* <br />
             <span>071 0891 055 (Geethmaka Dissanayake)</span>
-            <br />
+            <br /> */}
             <span>infosliitmcc@gmail.com</span>
             <br />
           </div>
